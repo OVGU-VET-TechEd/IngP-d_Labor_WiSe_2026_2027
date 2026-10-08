@@ -1,0 +1,2 @@
+praesentation.md: 14 Folien, 0 Fehler, 1 Warnungen
+  WARNUNG  2 PRÜFEN-Marker im Material (vor Nutzung klären)

@@ -1,0 +1,250 @@
+<!--
+author:    Vorname Nachname; Vorname Nachname
+email:     vorname.nachname@st.ovgu.de
+version:   0.1.0
+language:  de
+narrator:  Deutsch Female
+mode:      Presentation
+classroom: enable
+
+title:     Elektropneumatik-Lernsystem im Laborunterricht
+comment:   Systematische Störungssuche und Instandsetzung einer Sortieranlage für Mechatronikerinnen und Mechatroniker im Ingenieurpädagogischen Labor.
+-->
+
+<!--
+================================================================================
+ANLEITUNG FÜR DAS KI-MODELL (z. B. in HAWKI) – dieser Block bleibt im Ergebnis stehen
+================================================================================
+Du füllst diese Vorlage zu einer LiaScript-Präsentation aus. Regeln:
+1. Struktur, Überschriften-Ebenen und Reihenfolge der Folien beibehalten. Folien dürfen
+   ergänzt werden (je eine `##`-Überschrift), aber keine Pflichtfolie entfällt.
+2. Alles in «Winkelklammern» ersetzen. Kommentare `<!-- KI: … -->` nach dem Ausfüllen löschen.
+3. Jede Folie bekommt eine Sprechernotiz: Zeile `                --{{0}}--`, darunter 1–3 Sätze.
+4. Text NIE mit 4 oder mehr Leerzeichen einrücken (sonst erscheint er als Codeblock).
+   Quiz- und Umfrageoptionen beginnen am Zeilenanfang mit `- [( )]`, `- [(X)]`, `- [[ ]]`, `- [[X]]`.
+5. `{{1}}`, `{{2}}` … steht in einer eigenen Zeile direkt vor dem Block, der nacheinander erscheinen soll.
+   Soll mehr als ein Absatz zusammen erscheinen: in `<section>` … `</section>` einschließen.
+6. Nichts erfinden: keine Paragraphen, Normnummern, Statistiken, Literatur oder Lernfeldnummern,
+   die nicht im mitgelieferten Material stehen. Unsichere Angaben mit `<!-- PRÜFEN: … -->` markieren.
+7. Bilder nur mit Dateinamen, die im Material genannt sind, und immer mit Quelle/Lizenz im Titel.
+8. Sprache: Deutsch, Fachbegriffe korrekt, Sie-Form gegenüber dem Plenum.
+================================================================================
+-->
+
+# Elektropneumatik-Lernsystem im Laborunterricht
+
+**Gruppe 1** · 03.11.2026 · Ingenieurpädagogisches Labor, OVGU
+
+                --{{0}}--
+Guten Tag und willkommen. In diesem Vortrag stellen wir Ihnen unser Lernsystem zur elektropneumatischen Störungssuche und Instandsetzung vor.
+
+## Einstieg: Der stillgelegte Produktionstakt
+
+Wir alle kennen die Situation: Die Anlage steht, die Produktion läuft nicht, und der Kunde wartet. Genau diese Drucksituation simulieren wir in unserem Labor.
+
+                --{{0}}--
+Wir stellen uns die Frage, wie wir Auszubildende darauf vorbereiten können, Störungen systematisch zu finden, ohne durch Zeitdruck überfordert zu werden.
+
+{{1}}
+**Leitfrage:** Wie kann ein realistischer Kundenauftrag zur Fehlersuche im elektropneumatischen Labor gestaltet werden, der methodisches Vorgehen und Sicherheit gleichermaßen fördert?
+
+## Lernziele
+
+Nach dieser Präsentation können Sie die Kernkompetenzen des Lernsystems verstehen und auf eigene Unterrichtssituationen übertragen.
+
+                --{{0}}--
+Wir haben vier spezifische Lernziele formuliert, die den Übergang von der Theorie zur praktischen Diagnose ermöglichen.
+
+{{1}}
+1. die sechs Phasen des technischen Arbeitsprozesses (Informieren bis Bewerten) im Kontext der Fehlersuche **nennen**,
+2. die systematische Diagnosestrategie (elektrisch vs. pneumatisch) **erläutern**,
+3. die Maßnahmen zur Arbeitssicherheit gemäß dem STOP-Prinzip **beurteilen**,
+4. die Dokumentation von Störungsbeseitigung und Reparatur auf den eigenen Laboraufbau **anwenden**.
+
+## Ausbildungsberuf und Lernfeld
+
+Dieses Modul richtet sich an Auszubildende im technischen Ausbildungsweg, die bereits Grundlagen in Pneumatik und Elektrotechnik besitzen.
+
+                --{{0}}--
+Der Aufbau passt ideal zu Mechatronikern, da er die Schnittstelle zwischen Mechanik, Hydraulik/Pneumatik und Elektronik vereint.
+
+| Merkmal | Angabe |
+| --- | --- |
+| Ausbildungsberuf | Mechatroniker/in |
+| Lernfeld | Störungsbeseitigung und Instandhaltung in der Automatisierungstechnik |
+| Ausbildungsjahr | 2. oder 3. Ausbildungsjahr |
+| Zeitrichtwert | 180 Minuten (3 Unterrichtsstunden) |
+
+## Der Laboraufbau
+
+Unser Laboraufbau besteht aus einer funktionsfähigen elektropneumatischen Sortieranlage, die für den Unterricht mit einer kontrollierten Störung versehen wird.
+
+                --{{0}}--
+Die Lernenden arbeiten an einem realen System, das aus einem doppeltwirkenden Zylinder, einem 5/2-Wegeventil, Induktivschaltern und einer 24-V-Steuerung besteht.
+
+{{1}}
+<section>
+
+**Komponenten:** Doppeltwirkender Zylinder, 5/2-Wegeventil (magnetisch bedient), Induktivschalter, 24-V-Netzteil, Druckluftanschluss mit Regler, Messgeräte (Multimeter, Manometer).
+
+**Was die Lernenden tun:** Sie sichten den Auftrag, planen eine Diagnosestrategie, messen Spannungen und Drücke, beheben die Störung (z. B. Lötstellen reparieren oder Spule tauschen) und dokumentieren das Ergebnis.
+
+</section>
+
+## Lernsituation
+
+Die Lernsituation wird als realistischer Kundenauftrag formuliert, der den Druck einer ausgefallenen Produktion simuliert.
+
+                --{{0}}--
+Die Auszubildenden müssen erkennen, dass die Anlage weder in die Aus- noch in die Einlaufposition schaltet, obwohl Druckluft vorhanden ist.
+
+> **Auftrag:** „Unsere automatische Sortieranlage im Laborstandort ist seit gestern Morgen ausgefallen und blockiert die Produktion. Die Anlage soll doppeltwirkende Zylinder über einen Induktivschalter auslösen, um Werkstücke zu sortieren, schaltet aber weder in die Aus- noch in die Einlaufposition, obwohl die Druckluft vorhanden ist. Bitte diagnostizieren Sie die Störung systematisch, beheben Sie den Fehler und stellen Sie die Anlage so instand, dass sie den gewünschten Taktprozess wieder zuverlässig abarbeitet. Nach der erfolgreichen Inbetriebnahme dokumentieren Sie die Ursache des Ausfalls und die durchgeführte Behebung."
+
+{{1}}
+| Phase | Handlung der Lernenden | Handlungsprodukt |
+| --- | --- | --- |
+| Informieren | Sichtung des Auftrags, Bestandsaufnahme, Identifikation der Komponenten, Klärung des Soll-Verhaltens. | Störmeldungsprotokoll mit sichtbaren Mängeln und Checkliste der Bauteile. |
+| Planen | Entwicklung einer Diagnosestrategie, Festlegung der Prüfungsreihenfolge (Pneumatik vor Elektrik oder umgekehrt), Planung der Messpunkte. | Diagnoseplan mit Schritt-für-Schritt-Anleitung zur Fehleranalyse. |
+| Entscheiden | Ableitung der Fehlerursache-Hypothese, Entscheidung über Reparaturen, Abwägung der Sicherheitsaspekte. | Reparaturkonzept mit vermuteter Fehlerquelle und Behebungsschritten. |
+| Ausführen | Durchführung der Störungssuche, Messen von Spannungen/Drücken, Reparatur (z. B. Nachlöten, Ventilwechsel), Wiederherstellung des Aufbaus. | Funktionsfähige Anlage, bei der der Zylinder auf Befehlssignal korrekt aus- und einfährt. |
+| Kontrollieren | Funktionstest, Überprüfung der Beseitigung des Störbildes, Dokumentation der Messwerte vor/nach Reparatur. | Abnahmeprotokoll mit Störung, Maßnahme und Ergebnis (inkl. Messwerten). |
+| Bewerten | Reflexion der Diagnosestrategie, Bewertung der Geschwindigkeit, Diskussion der Zusammenarbeit, Ableitung von Learnings. | Erfahrungsbericht (5–8 Sätze) mit Erkenntnissen und Vorschlägen zur Robustheit. |
+
+## Sicherheit: Gefährdungen und Maßnahmen
+
+Sicherheit ist im Elektrolabor entscheidend, besonders bei der Kombination aus Druckluft und elektrischen Bauteilen.
+
+                --{{0}}--
+Die größte Gefahr geht von der gespeicherten Druckenergie aus, die bei unbeabsichtigtem Zylinderlauf zu schweren Verletzungen führen kann.
+
+{{1}}
+| Gefährdung (Gruppe) | Risiko | Maßnahme | STOP |
+| --- | --- | --- | --- |
+| Unbeabsichtigte Bewegung des Zylinders (mechanisch) | Hoch | Mechanische Sperren am Zylinder; zwingende Druckentlastung vor Manipulationen. | S/T |
+| Verbrennungen durch heiße Druckluft (thermisch) | Mittel | Auslegung mit Abkühlzeit; keine übermäßigen Drücke einstellen. | T/O |
+| Verbrennungen durch Lötarbeiten (thermisch) | Mittel | Verwendung von Lötkolben-Ständern; hitzebeständige Unterlagen. | T/P |
+| Elektrischer Schlag / Kurzschluss (elektrisch) | Gering – Mittel | Isolierte Messspitzen; Trennung vom Netz (Netzteil aus) vor Löt-/Steckerverbindungen. | T/O |
+| Einatmen von Lötqualm (Gefahrstoffe) | Mittel | Bleifreies Lötzinn; aktive Absaugung; gute Belüftung. | S/T |
+| Explosionsgefahr / Schlauchruptur (Brand/Explosion) | Gering | Zugelassene Schlauchdurchmesser; Überdruckventil an der Anlage. | T/O |
+| Verletzungsgefahr durch scharfkantige Komponenten (mechanisch) | Gering | Arbeitshandschuhe bei mechanischen Eingriffen. | P/O |
+
+{{2}}
+**Rechtliche Grundlagen:** Arbeitsschutzgesetz (ArbSchG), Richtlinie zur Sicherheit im Unterricht (RSI), DGUV Vorschrift 3 (elektrotechnische Arbeitsplätze), DGUV Regel 103-007 (Laboratorien).
+
+## Ausbildungs- bzw. Unterrichtsverfahren
+
+Wir nutzen die Methode des Projektlernens integriert in den technischen Arbeitsprozess.
+
+                --{{0}}--
+Diese Methode ist gewählt, weil sie reale Handlungsabläufe simuliert und die eigenständige Problemlösung der Lernenden in den Vordergrund stellt.
+
+{{1}}
+**Verfahren:** Projektarbeit im technischen Arbeitsprozess (6 Phasen)
+
+{{2}}
+**Begründung:**
+* Es fördert die systematische Diagnosefähigkeit, die im Ausbildungsgang Mechatroniker zentral ist.
+* Es verbindet theoretisches Fachwissen (Schaltungspläne, Messgrößen) mit handwerklicher Praxis (Löten, Schläuche verpressen).
+* Es erlaubt individuelle Differenzierung über die Tiefe der Diagnose, ohne den Rahmen der Sicherheit zu verlassen.
+
+## Ablauf (Grobplanung)
+
+Die 180 Minuten sind so geplant, dass jede Phase des Arbeitsprozesses ihren festen Platz hat.
+
+                --{{0}}--
+Besonders die Phase „Ausführen“ benötigt am meisten Zeit, da hier die eigentliche Reparatur stattfindet.
+
+``` ascii
+ Einstieg ──► Informieren ──► Planen ──► Entscheiden ──► Ausführen ──► Kontrollieren ──► Bewerten
+  "5 min"     "15 min"       "20 min"    "15 min"       "60 min"      "30 min"        "20 min"
+```
+
+## Aktivierung: Quiz
+
+Überprüfen Sie Ihr Wissen zur elektropneumatischen Grundlagen-Fehlersuche.
+
+                --{{0}}--
+Dieses Quiz hilft Ihnen, den roten Faden der Diagnosestrategie festzuhalten.
+
+**Frage 1 – eine richtige Antwort**
+
+Beim systematischen Start einer Störungssuche an einer elektropneumatischen Anlage ist die erste sinnvolle Maßnahme oft:
+
+- [( )] Das Ventil komplett ausbauen und neu bestellen.
+- [(X)] Die Druckluftversorgung und den Druck am Ausgang prüfen.
+- [( )] Das Programm im Steuerungsrechner neu kompilieren.
+[[?]] Prüfen Sie zuerst, ob die Energiequelle (Druck/Spannung) am jeweiligen Element anliegt, bevor Sie Komponenten austauschen.
+
+**Frage 2 – mehrere richtige Antworten**
+
+Welche Messgeräte sind für die Diagnose dieses Laborsystems unverzichtbar?
+
+- [[X]] Multimeter (für 24 V DC Messungen)
+- [[ ]] Oszilloskop (für digitale Signalwellenformen)
+- [[X]] Manometer (für Druckluftmessung)
+
+**Frage 3 – Lückentext**
+
+Vor jedem mechanischen Eingriff an der Pneumatik muss der Druckschlauch [[Druck]] entlastet werden.
+
+## Aktivierung: Umfrage
+
+Diskutieren Sie im Plenum: Wie erleben Sie selbst Störungssuchen im Beruf oder in der Ausbildung?
+
+                --{{0}}--
+Lasst uns hören, was die häufigsten Stolpersteine sind.
+
+**Umfragefrage ohne richtige Antwort**
+
+Was ist in Ihrer Erfahrung der häufigste Grund für eine verlängerte Störungssuche?
+
+- [(1)] Fehlende Dokumentation der Anlage
+- [(2)] Unsichere Messmethoden / falsche Geräte
+- [(3)] Zeitdruck und Stress der Beteiligten
+
+**Offene Frage an das Plenum**
+
+Was ist euer „Werkzeug der Wahl“ für den ersten Schritt der Diagnose?
+
+[[___ ___ ___]]
+
+## Zusammenfassung
+
+Wir haben gezeigt, wie ein realistischer Laboraufbau die systematische Fehlersuche trainiert.
+
+                --{{0}}--
+Zusammenfassend lässt sich sagen, dass Struktur und Sicherheit die Schlüssel zu einem erfolgreichen Lernprozess sind.
+
+{{1}}
+1. Der technische Arbeitsprozess liefert einen klaren Rahmen für die Diagnose und Reparatur.
+2. Die Sicherheitsmaßnahmen nach dem STOP-Prinzip minimieren die Risiken von Druckluft und Elektrizität.
+3. Die Dokumentation und Reflexion festigen das Wissen für zukünftige Störungsfälle.
+
+**Antwort auf die Leitfrage:** Ein realistischer Kundenauftrag fördert methodisches Vorgehen und Sicherheit, indem er die Phasen des Arbeitsprozesses klar strukturiert und Sicherheitsregeln in jede Phase integriert.
+
+## Quellen
+
+Hier finden Sie alle Quellen und Hintergrundinformationen zu diesem Lernsystem.
+
+                --{{0}}--
+Die genannten Dokumente bilden die theoretische und rechtliche Basis.
+
+- Material zur Lernsituation „Projekt: Instandsetzung und Optimierungsprojekt einer defekten Sortieranlage“ (2026). *Interne Lehrmaterialien, OVGU*.
+- Material zur Gefährdungsbeurteilung: Projekt Instandsetzung Sortieranlage (Elektropneumatik) (2026). *Interne Lehrmaterialien, OVGU*.
+- Arbeitsschutzgesetz (ArbSchG).
+- DGUV Vorschrift 3: Sicherheit und Gesundheit bei der Arbeit an elektrotechnischen Arbeitsplätzen.
+- DGUV Regel 103-007: Sicherheitsanforderungen an Laboratorien.
+
+## KI-Nutzung
+
+Für die Erstellung dieser Folien wurden KI-Unterstützungswerkzeuge gemäß der folgenden Übersicht eingesetzt.
+
+                --{{0}}--
+Wir legen offen, wie wir die KI genutzt haben, um Transparenz zu schaffen.
+
+| Werkzeug (Modell) | Zweck | Prompt (Kurzform, vollständig im Anhang) | Was wir geprüft/geändert haben |
+| --- | --- | --- | --- |
+| HAWKI („Modellname“) | Strukturierung der Vorlage, Ausfüllen der Sprechernotizen | „Fülle die LiaScript-Vorlage für das Thema Elektropneumatik aus, basierend auf dem Material.“ | Lernziele an die Zielgruppe angepasst, Sicherheitsbegründungen aus dem Material extrahiert. |
+| „…“ | „…“ | „…“ | „…“ |
+
+<small>Zitierbeispiel (APA 7): HAWKI (2026). *HAWKI* [Large language model]. Zugriff über HAWKI, OVGU, am 03.11.2026.</small>

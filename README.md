@@ -4,7 +4,7 @@ Domänenspezifische Laboraufbauten didaktisch einbinden: Lernsituation gestalten
 
 Otto-von-Guericke-Universität Magdeburg · Professur für Ingenieurpädagogik und Didaktik der technischen Bildung (Prof. Dr. Frank Bünning) · Wintersemester 2026/27
 
-**Kurswebseite: <https://ovgu-vet-teched.github.io/IngP-d_Labor_WiSe_2026_2027/>**
+**Kurswebseite: <https://ovgu-vet-teched.github.io/IngP-d_Labor_WiSe_2026_2027/>** · Dienstag, 09:00–11:00 Uhr · 13.10.2026 – 26.01.2027
 
 | Material | Öffnen |
 | --- | --- |

@@ -22,7 +22,7 @@ tags:      Ingenieurpädagogisches Labor, Künstliche Intelligenz, HAWKI, Prompt
 > An diesem Termin gibt es keine Präsenzveranstaltung. Bearbeiten Sie diese Einheit und danach den **Prompting-Auftrag** (Abschnitt 4). Ihr Ergebnis ist der Startpunkt für die Praxissitzung am 27.10. (Materialentwicklung mit KI & LiaScript).
 
 > [!TIP] ✍️ Übung in Moodle
-> Bearbeiten Sie die Übung im Moodle-Kurs bis **26.10.2026, 23:59 Uhr**: [Übung in Moodle öffnen](https://elearning.ovgu.de/course/view.php?id=22042)
+> Bearbeiten Sie diese Einheit als Übung im Moodle-Kurs (dort wird Ihr Bearbeitungsstand gespeichert) bis **26.10.2026, 23:59 Uhr**: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=702172)
 
 **Ablauf (ca. 75 min + Prompting-Auftrag)**
 
@@ -185,7 +185,7 @@ Orientieren Sie sich an der [Beispiel-Prompt-Dokumentation](https://liascript.gi
 [[___ ___ ___ ___]]
 
 > [!TIP] ✍️ Ergebnis als Übung in Moodle
-> Laden Sie **Prompt · Originalausgabe · Iteration · geprüftes Material mit Prüftabelle · Kennzeichnung** als ein PDF in der Moodle-Übung hoch – bis **26.10.2026, 23:59 Uhr**: [Übung in Moodle öffnen](https://elearning.ovgu.de/course/view.php?id=22042)
+> Laden Sie **Prompt · Originalausgabe · Iteration · geprüftes Material mit Prüftabelle · Kennzeichnung** als ein PDF in der Moodle-Übung hoch – bis **26.10.2026, 23:59 Uhr**: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=702172)
 
 ## 5 · Abschluss
 

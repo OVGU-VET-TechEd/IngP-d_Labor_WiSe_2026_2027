@@ -180,12 +180,28 @@ Allgemeine Beschreibungen und öffentliche Dokumente sind unproblematisch. Daten
 
 Orientieren Sie sich an der [Beispiel-Prompt-Dokumentation](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/IngP-d_Labor_WiSe_2026_2027/main/00_Organisation/KI/Beispiel_Prompt_Dokumentation.md).
 
-**Ihr Prompt (Entwurf):**
+> [!TIP] ✍️ Ergebnisse direkt hier eintragen
+> Tragen Sie Ihre Ergebnisse in die Felder unten ein und schicken Sie jedes Feld ab. In Moodle wird Ihr Bearbeitungsstand gespeichert. Die Übung gilt als erledigt, wenn Sie diese Einheit in Moodle bis **26.10.2026, 23:59 Uhr** vollständig bearbeitet haben – eine Datei-Abgabe ist nicht nötig. Bewahren Sie Prompt und Material trotzdem auf: Sie arbeiten am 27.10. damit weiter.
+
+**1 · Ihr Prompt** (Rolle · Kontext · Aufgabe · Vorgaben · Ausgabeformat):
 
 [[___ ___ ___ ___]]
 
-> [!TIP] ✍️ Ergebnis als Übung in Moodle
-> Laden Sie **Prompt · Originalausgabe · Iteration · geprüftes Material mit Prüftabelle · Kennzeichnung** als ein PDF in der Moodle-Übung hoch – bis **26.10.2026, 23:59 Uhr**: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=702172)
+**2 · Originalausgabe** (Auszug, unverändert):
+
+[[___ ___ ___ ___ ___]]
+
+**3 · Iteration:** Welche Rückmeldung haben Sie gegeben – und was hat sich verbessert?
+
+[[___ ___ ___]]
+
+**4 · Prüftabelle** – mindestens fünf Stellen, je Zeile: *Stelle im Material – Primärquelle – Ergebnis (✅/⚠️/❌) – Änderung*
+
+[[___ ___ ___ ___ ___ ___]]
+
+**5 · Kennzeichnung** (Werkzeug, Modell, Datum nach APA 7):
+
+[[___ ___]]
 
 ## 5 · Abschluss
 

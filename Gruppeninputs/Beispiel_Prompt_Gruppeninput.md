@@ -157,31 +157,32 @@ PRÄSENTATION
 (lokal: `~/GitHub/Research/AI_Tools/2026/teaching-agent`, mit dem lokalen Kurs-Input `specs/course-input/ingpaed-labor/`,
 der nie veröffentlicht wird).
 
-**1. Arbeitskopie anlegen** – nicht im veröffentlichten Agent-Repo arbeiten, denn `journal.md` und `materials/` sind Kursarbeit:
+**1. Arbeitskopie anlegen** – nicht im veröffentlichten Agent-Repo arbeiten, denn `journal.md` und das Material sind Kursarbeit.
+Bei einer einzelnen Lektion schreibt der Agent das Material in die `README.md` im Wurzelordner; deshalb die Agent-README vorher umbenennen:
 
 ```bash
 git clone https://github.com/OVGU-VET-TechEd/teaching-agent.git ~/Arbeit/teaching-agent-T2
 cp -R ~/GitHub/Research/AI_Tools/2026/teaching-agent/specs/course-input ~/Arbeit/teaching-agent-T2/specs/
-cd ~/Arbeit/teaching-agent-T2 && claude
+cd ~/Arbeit/teaching-agent-T2 && git mv README.md AGENT_README.md && claude
 ```
 
-**2. Befehlsfolge**
+**2. Befehlsfolge** (Stand LiaScript-`main`, 03.11.2026: Sitzungsbefehle nehmen nur noch die Nummer)
 
 | Schritt | Befehl | Eingabe / Entscheidung |
 | ------- | ------ | ---------------------- |
-| 1 | `:init-course` | Kurstyp **single-lesson** (ein Gruppen-Input = eine Lektion); File Structure **multi-file**, damit die Agent-`README.md` nicht überschrieben wird |
+| 1 | `:init-course` | Kurstyp **single-lesson** (ein Gruppen-Input = eine Lektion; Dateistruktur ist dann fest „eine Datei“) |
 | 2 | `:create-outline` | Teil A der [Outline-Vorlage](Vorlage_Outline_Gruppeninput.md) für «Tn» |
-| 3 | `:create-didactics` | Session Type `input` (siehe unten) |
-| 4 | `:create-session 1 input «Titel»` | Folienplan aus Teil D.3 als Gliederung |
-| 5 | `:build-session 1 input` | Schleife: Material → Validierung → Persona-Review |
-| 6 | `:validate-syntax 1 input` | muss PASS ergeben |
-| 7 | — | `materials/01-…/README.md` nach `Gruppeninputs/Tn_…/Tn_…_Praesentation.md` kopieren, Bilder mitnehmen, in LiaScript ansehen |
+| 3 | `:create-didactics` | Session Type „Gruppen-Input“ (siehe unten) |
+| 4 | `:create-session 1 «Titel»` | Folienplan aus Teil D.3 als Gliederung |
+| 5 | `:build-session 1` | Schleife: Material → Prüfung → Persona-Review |
+| 6 | `:validate-syntax 1` | muss PASS ergeben |
+| 7 | — | `README.md` der Arbeitskopie nach `Gruppeninputs/Tn_…/Tn_…_Praesentation.md` kopieren, Bilder mitnehmen, in LiaScript ansehen |
 
 Session Type für Schritt 3:
 
 ```text
-__Gruppen-Input__ (slug: `input`) — Quellentreue LiaScript-Präsentation einer Originalpräsentation, 70 Min. Input + 20 Min. Aktivierung.
-Erforderlich: je Originalfolie ein `<!-- src: Folie N -->`-Marker in Originalreihenfolge; nach jedem Block ein als Ergänzung markierter Kurzcheck mit Lösungen aus den Folien; Quellenfolie nur mit Quellen der Originalfolien.
+__Gruppen-Input__ (slug: `gruppeninput`) — Quellentreue LiaScript-Präsentation einer Originalpräsentation, 70 Min. Input + 20 Min. Aktivierung.
+Required: je Originalfolie ein `<!-- src: Folie N -->`-Marker in Originalreihenfolge; nach jedem Block ein als Ergänzung markierter Kurzcheck mit Lösungen aus den Folien; Quellenfolie nur mit Quellen der Originalfolien.
 ```
 
 **3. Auftragsprompt** (als erste Nachricht nach der Aktivierung):

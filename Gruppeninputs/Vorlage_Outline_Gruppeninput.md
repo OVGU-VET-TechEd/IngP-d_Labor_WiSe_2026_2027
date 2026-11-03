@@ -19,7 +19,7 @@ passender Prompt: [`Beispiel_Prompt_Gruppeninput.md`](Beispiel_Prompt_Gruppeninp
 
 **So ist die Datei aufgebaut**
 
-1. **Teil A – Outline** im Format des Teaching-Agent (`templates/course-outline.yaml`); lässt sich 1:1 in `journal.md` → `## Outline` übernehmen.
+1. **Teil A – Outline** im aktuellen Format des Teaching-Agent (`templates/course-outline.yaml`, mit `data-key`-Kommentaren und Sitzungsübersicht); Vorlage für `:create-outline`.
 2. **Teil B – Folienplan:** jede LiaScript-Folie mit ihrer Originalfolie.
 3. **Teil C – Regeln zur Quellentreue** – gelten für alle vier Gruppen-Inputs.
 4. **Teil D – Blanko-Vorlage** für T2–T4 zum Ausfüllen.
@@ -29,18 +29,24 @@ passender Prompt: [`Beispiel_Prompt_Gruppeninput.md`](Beispiel_Prompt_Gruppeninp
 
 ## Teil A – Outline (Beispiel T1)
 
-<!-- Format: Teaching-Agent, tasks/create-outline.md – flache `* __Label:__`-Punkte, keine Unterüberschriften -->
+> Format: Teaching-Agent `templates/course-outline.yaml` (Stand LiaScript `main`, 03.11.2026): sichtbare Labels in der
+> Kurssprache, der Schlüssel steht unsichtbar im `data-key`-Kommentar direkt darüber. Die **Lernziele sind aus den Folien
+> abgeleitet** und vom Lehrenden zu bestätigen – sie stehen nicht in der Präsentation.
 
-* __Title:__
+<!-- data-key="title" -->
+* __Titel:__
   Lehren und Lernen in ingenieurpädagogischen Laboren – Gruppen-Input T1
-* __Target Audience:__
+<!-- data-key="target-audience" -->
+* __Zielgruppe:__
   Studierende Lehramt an berufsbildenden Schulen (gewerblich-technische Fachrichtungen: Metall-, Elektro-, Bau-,
   Informations-, Prozesstechnik), ca. 10–20 Personen, fachlich vorgebildet, didaktisch am Anfang. Ihr
   Studiennachweis: zu einem Ausbildungsberuf und Lernfeld einen domänenspezifischen Laboraufbau didaktisch einbinden.
-* __Time Commitment:__
+<!-- data-key="time-commitment" -->
+* __Zeitrahmen:__
   Sitzung 4 am 03.11.2026, 09:00–11:00 Uhr: 70 Min. Input + 20 Min. Aktivierung (Organisationsüberblick,
   „Erwartungen an die Präsentationen“). Aktivierung als vier Kurzchecks à ca. 5 Min.
-* __Abstract:__
+<!-- data-key="abstract" -->
+* __Kurzbeschreibung:__
   Der Input folgt der Originalpräsentation „Lehren und Lernen in ingenieurpädagogischen Laboren“
   (Ingenieurpädagogisches Labor, Dozent: M. Robra; Fassung 2023) Folie für Folie: Lernsysteme im Bereich
   Mechatronik und Automatisierung (Fachkenntnisse, Kompetenzen, Psychomotorik), Vor- und Nachteile technischer
@@ -50,13 +56,32 @@ passender Prompt: [`Beispiel_Prompt_Gruppeninput.md`](Beispiel_Prompt_Gruppeninp
   Beispiel Hebel-/Momentgesetz), Medienspektrum, Formen der Veranschaulichung, Medienmerkmale, Formen
   wissenserwerbsbezogener Interaktivitäten, Angebot-Nutzungs-Modell und „didaktischer Raum“. Nutzen: Die
   Studierenden erhalten die Begriffe, mit denen sie ihren eigenen Laboraufbau didaktisch begründen.
-* __Learning Objectives:__
-  <!-- aus den Folieninhalten abgeleitet – Operatoren vom Lehrenden zu bestätigen; sie stehen NICHT in der Präsentation -->
+<!-- data-key="learning-goals" -->
+* __Lernziele:__
   1. Fachkenntnisse, Kompetenzen und Psychomotorik, die technische Lernsysteme fördern, sowie deren Vor- und Nachteile **nennen** (Folien 2–4).
+     - Beobachtbar: Kurzcheck 1 – didaktische Vorteile von Nachteilen unterscheiden, Transferleistung begründen.
+     - Basis: Vor- und Nachteile wiedererkennen · Erweiterung: auf den eigenen Laboraufbau beziehen.
   2. Labor- und Feldexperiment sowie wissenschaftliches und technisches Experiment **unterscheiden** und die Doppelfunktion des technischen Experiments **erläutern** (Folien 6–8).
+     - Beobachtbar: Kurzcheck 2, Frage 1 – Labor-/Feldexperiment zuordnen. ⚠️ Lücke: Doppelfunktion und technisches/wissenschaftliches Experiment haben noch keinen Kurzcheck.
+     - Basis: Merkmale zuordnen · Erweiterung: begründen, welche Experimentart zum eigenen Laboraufbau passt.
   3. Zielstellungen von Experimenten (kausal, konditional, final) und Prüfverfahren **zuordnen** (Folien 9–11).
+     - Beobachtbar: Kurzcheck 2, Fragen 2–3.
+     - Basis: Paarbegriffe zuordnen · Erweiterung: die Zielstellung einer eigenen Laboraufgabe benennen.
   4. Horizontale und vertikale didaktische Reduktion am Beispiel des Hebel-/Momentgesetzes **erläutern** (Folien 12–14).
+     - Beobachtbar: Kurzcheck 3.
+     - Basis: Reduktionsebene und -form erkennen · Erweiterung: eine Aussage zum eigenen Laboraufbau reduzieren.
   5. Medienspektrum, Formen der Veranschaulichung und Interaktionsformen **zuordnen** und das Angebot-Nutzungs-Modell **beschreiben** (Folien 15–20).
+     - Beobachtbar: Kurzcheck 4.
+     - Basis: Beispiele den Kategorien zuordnen · Erweiterung: Medien für den eigenen Laboraufbau auswählen.
+<!-- data-key="session-overview" -->
+* __Sitzungsübersicht:__
+
+  | Abschnitt                                                        | Lernziel | Selbstcheck |
+  | ---------------------------------------------------------------- | -------- | ----------- |
+  | Folien 2–4: Lernsysteme, Vor- und Nachteile                      | 1        | Kurzcheck 1 |
+  | Folien 5–11: Methoden, Experiment, Prüfverfahren, Planungsebenen | 2, 3     | Kurzcheck 2 |
+  | Folien 12–14: Didaktische Reduktion                              | 4        | Kurzcheck 3 |
+  | Folien 15–20: Medien, Angebot-Nutzungs-Modell, didaktischer Raum | 5        | Kurzcheck 4 |
 
 ---
 
@@ -138,22 +163,39 @@ Original: `Presentation_IngLab_2023_Lehren_Lernen_ingped_Labor_V_01.pdf` (23 Sei
 
 ### D.1 Outline
 
-* __Title:__
+<!-- data-key="title" -->
+* __Titel:__
   «Titel der Originalpräsentation» – Gruppen-Input «Tn»
-* __Target Audience:__
+<!-- data-key="target-audience" -->
+* __Zielgruppe:__
   Studierende Lehramt an berufsbildenden Schulen (gewerblich-technische Fachrichtungen), ca. 10–20 Personen,
   fachlich vorgebildet, didaktisch am Anfang.
-* __Time Commitment:__
+<!-- data-key="time-commitment" -->
+* __Zeitrahmen:__
   Sitzung «Nr.» am «Datum», 09:00–11:00 Uhr: 70 Min. Input + 20 Min. Aktivierung.
-* __Abstract:__
+<!-- data-key="abstract" -->
+* __Kurzbeschreibung:__
   Der Input folgt der Originalpräsentation «Titel» («Herkunft, Jahr») Folie für Folie: «Folientitel in Reihenfolge».
   Nutzen für den eigenen Laboraufbau: «ein Satz».
-* __Learning Objectives:__
-  <!-- aus den Folieninhalten ableiten, je Lernziel die Folien angeben -->
+<!-- data-key="learning-goals" -->
+* __Lernziele:__
   1. «Inhalt» **nennen** (Folien «…»).
+     - Beobachtbar: Kurzcheck «Nr.», Frage «Nr.»
+     - Basis: «…» · Erweiterung: «Bezug zum eigenen Laboraufbau»
   2. «Inhalt» **erläutern** (Folien «…»).
+     - Beobachtbar: «…»
+     - Basis: «…» · Erweiterung: «…»
   3. «Inhalt» **zuordnen / unterscheiden** (Folien «…»).
-  4. «Inhalt» **beurteilen** (Folien «…»).
+     - Beobachtbar: «…»
+     - Basis: «…» · Erweiterung: «…»
+<!-- data-key="session-overview" -->
+* __Sitzungsübersicht:__
+
+  | Abschnitt            | Lernziel | Selbstcheck   |
+  | -------------------- | -------- | ------------- |
+  | Folien «von–bis»: «…» | «Nr.»    | Kurzcheck «Nr.» |
+
+> Jedes Lernziel braucht einen Kurzcheck, der es beobachtbar macht. Fehlt er, die Lücke wie in Teil A markieren.
 
 ### D.2 Quellen-Inventar (zuerst ausfüllen, vor dem Folienplan)
 

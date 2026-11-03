@@ -93,7 +93,8 @@ VORGABEN – LiaScript-Syntax
   darunter 1–3 Sätze, die NUR erklären, was auf der Folie steht. Zähler beginnen auf jeder Folie bei 0.
 - Mehrere Absätze in einem Fragment: in <section> … </section> mit Leerzeilen innen.
 - Quiz- und Umfrageoptionen beginnen am Zeilenanfang (nie 4 Leerzeichen einrücken).
-- Keine runden Klammern in HTML-Kommentaren (LiaScript zeigt solche Kommentare sonst als Text an).
+- Keine runden Klammern in HTML-Kommentaren (LiaScript zeigt solche Kommentare sonst als Text an) und keine runden
+  Klammern im Alternativtext von Bildern ![…] (LiaScript zeigt das Bild sonst womöglich nicht an).
 - URLs innerhalb von <small> immer als Markdown-Link schreiben: [url](url).
 - ASCII-Diagramme in einen Codeblock mit dem Sprachkürzel ascii.
 
@@ -200,7 +201,7 @@ Verbindlich:
 3. Folientext wörtlich; Tippfehler nur korrigieren und im Kopfkommentar dokumentieren.
 4. Ergänzungen (Kurzchecks, Video-Tipps) sichtbar als „✍️ Ergänzung“ kennzeichnen; Kurzcheck-Lösungen zitieren die Originalfolie.
 5. Video-Tipps nur mit geprüftem Titel und Kanal (YouTube oEmbed), mit Hinweis „vor dem Einsatz selbst ansehen“.
-6. Keine runden Klammern in HTML-Kommentaren; URLs in <small> als Markdown-Link.
+6. Keine runden Klammern in HTML-Kommentaren und im Alternativtext von Bildern; URLs in <small> als Markdown-Link.
 
 Starte mit :create-outline und nutze dafür Teil A der Vorlage Gruppeninputs/Vorlage_Outline_Gruppeninput.md als Muster.
 Frage nach, wenn eine Originalfolie nicht zum Thema passt, statt sie zu übernehmen oder zu ersetzen.

@@ -143,6 +143,8 @@ Original: `Presentation_IngLab_2023_Lehren_Lernen_ingped_Labor_V_01.pdf` (23 Sei
    sonst als sichtbaren Text an. Erläuterungen gehören in den Kopfkommentar.
 5. **Abbildungen:** Originalabbildung mit Quelle im Bildtitel und aussagekräftigem Alternativtext. Ist sie zu dicht,
    folgt eine **Lesefassung** mit dem Text *aus der Abbildung* (`{{0-1}}` Abbildung, `{{1}}` Lesefassung).
+   ⚠️ LiaScript-Stolperstein: **Keine runden Klammern im Alternativtext** `![…]` – zusammen mit einem Schrägstrich
+   (z. B. „Lehr-/Lernprozess (…)“) zeigt LiaScript das Bild nicht an, nur die Bildunterschrift. Im Bildtitel `"…"` sind Klammern unproblematisch.
 6. **Sprechertext** `--{{n}}--` zu jedem Fragment `{{n}}`: erklärt nur, was auf der Folie steht.
 7. **Ergänzungen sichtbar kennzeichnen** (`> [!NOTE] ✍️ Ergänzung`): Kurzchecks und Video-Tipps.
    - Kurzcheck-Antworten stammen **nur** aus den Folien; jede Lösung (`***`-Block) gibt die vollständige Originalaussage
@@ -248,7 +250,7 @@ Richtwert: ein Kurzcheck nach jedem Block von ca. 15–20 Min., insgesamt ca. 20
 - [ ] Jeder Kurzcheck lässt sich mit den Folien beantworten; jede Lösung zitiert die Originalaussage.
 - [ ] Alle Abbildungen haben Quelle und Alternativtext; dichte Abbildungen haben eine Lesefassung.
 - [ ] Zu jedem `{{n}}` gibt es einen Sprechertext `--{{n}}--`.
-- [ ] Keine runden Klammern in HTML-Kommentaren; keine nackten URLs in `<small>`.
+- [ ] Keine runden Klammern in HTML-Kommentaren und im Alternativtext von Bildern; keine nackten URLs in `<small>`.
 - [ ] In LiaScript geöffnet und jede Folie angesehen (Präsentations- **und** Lehrbuchmodus).
 - [ ] Video-Links geprüft und vorab angesehen.
 - [ ] Quellenfolie enthält nur Quellen von den Originalfolien.

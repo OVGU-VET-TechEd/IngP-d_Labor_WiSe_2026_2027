@@ -462,7 +462,7 @@ Angehende Facharbeiter sollen in *ganz elementarem Ausmaß* in die Ingenieurwiss
 <!-- src: Folie 13 -->
 
 {{0-1}}
-![Übersicht „Ebenen und Formen der didaktischen Reduktion“: horizontale Reduktion (Darstellungsreduktion) und vertikale Reduktion (Inhaltsreduktion), qualitativ und quantitativ](04_Ebenen_der_Reduktion.png "Ebenen und Formen der didaktischen Reduktion (nach: Brüning / Müller / Schüssler 1995, S. 34)")
+![Übersicht „Ebenen und Formen der didaktischen Reduktion“: horizontale Reduktion als Darstellungsreduktion und vertikale Reduktion als Inhaltsreduktion, qualitativ und quantitativ](04_Ebenen_der_Reduktion.png "Ebenen und Formen der didaktischen Reduktion (nach: Brüning / Müller / Schüssler 1995, S. 34)")
 
                 --{{0}}--
 Die Abbildung unterscheidet zwei Reduktionsebenen: die horizontale didaktische Reduktion, auch Darstellungsreduktion, und die vertikale didaktische Reduktion, auch Inhaltsreduktion.
@@ -495,7 +495,7 @@ Bei der horizontalen Reduktion bleibt der Gültigkeitsumfang gleich; die Aussage
 
 <!-- src: Folie 14 -->
 
-![Beispiel didaktische Reduktion: links Skizzen zum Hebelgesetz (vertikale Reduktion), rechts Flussdiagramm von der obersten Aussage über die Ausgangsaussage zu vertikalen und horizontalen Reduktionsstufen (Momentgesetz)](05_Beispiel_Hebelgesetz.png "Beispiel „Hebel Gesetz“ – vertikale didaktische Reduktion; Beispiel „Moment Gesetz“ – vertikale und horizontale didaktische Reduktion. Quelle: http://helmut-richter.de/didaktik/didaredu.htm")
+![Beispiel didaktische Reduktion: links Skizzen zum Hebelgesetz mit vertikaler Reduktion, rechts Flussdiagramm zum Momentgesetz von der obersten Aussage über die Ausgangsaussage zu vertikalen und horizontalen Reduktionsstufen](05_Beispiel_Hebelgesetz.png "Beispiel „Hebel Gesetz“ – vertikale didaktische Reduktion; Beispiel „Moment Gesetz“ – vertikale und horizontale didaktische Reduktion. Quelle: http://helmut-richter.de/didaktik/didaredu.htm")
 
                 --{{0}}--
 Am Beispiel des Hebel- und Momentgesetzes zeigt die Quelle, wie eine Aussage schrittweise reduziert wird. Links sehen Sie die vertikale Reduktion am Hebelgesetz in Skizzen, rechts das Momentgesetz mit vertikalen und horizontalen Reduktionsstufen. Auf der nächsten Folie steht der Text der Abbildung zum Mitlesen.
@@ -676,7 +676,7 @@ Das Angebot-Nutzungs-Modell beschreibt die Wirkungsweise des Unterrichts. Die Le
 
 <!-- src: Folie 20 -->
 
-![Dreidimensionaler didaktischer Raum: Lernaktivitäten (von rezipieren bis konstruieren), Medienfunktionen im Lehr-/Lernprozess (Informationsträger, Kommunikationsträger, Träger der Handlung) und Sozialformen (von Einzelarbeit am Computer bis betreute Partner-/Gruppenarbeit, jeweils virtuell oder face to face)](08_Didaktischer_Raum.png "„Didaktischer Raum“ (Quelle: A. Eder 2008)")
+![Dreidimensionaler didaktischer Raum: Lernaktivitäten von rezipieren bis konstruieren, Medienfunktionen im Lehr-/Lernprozess – Informationsträger, Kommunikationsträger, Träger der Handlung – und Sozialformen von Einzelarbeit am Computer bis betreute Partner-/Gruppenarbeit, jeweils virtuell oder face to face](08_Didaktischer_Raum.png "„Didaktischer Raum“ (Quelle: A. Eder 2008)")
 
 <small>Quelle: A. Eder (2008): Digitale Medienverwendung an berufsbildenden Schulen</small>
 
